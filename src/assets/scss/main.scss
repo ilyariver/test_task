@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import "search-city";
+@import "search-content";
+@import "variables";
+@import "searching-city";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body.modal-active {
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #4f4f4f;
+}
+
+#app {
+  height: 100%;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
